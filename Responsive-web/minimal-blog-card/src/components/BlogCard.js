@@ -6,7 +6,7 @@ const Card = styled.section`
   border-radius: 10px;
   padding: 16px 16px 20px 16px;
   margin: 16px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
   max-width: 368px;
 `;
 
