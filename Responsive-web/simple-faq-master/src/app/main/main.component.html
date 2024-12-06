@@ -1,0 +1,11 @@
+<main>
+    <app-section-detail 
+    *ngFor="let section of sections"
+    [title]="section.title"
+    [description]="section.description"
+    [finalDescription]="section.finalDescription"
+    [highlightFinalDescription]="section.highlightFinalDescription"
+    [isOrdered]="section.isOrdered"
+    [listItems]="section.listItems">
+  </app-section-detail>
+</main>

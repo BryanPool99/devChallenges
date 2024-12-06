@@ -1,0 +1,23 @@
+@use 'variables/typography.scss' as typo;
+@use 'variables/color.scss' as color;
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: typo.$google-font;
+    font-size: typo.$font-size-body;
+    font-weight: typo.$font-weight-regular;
+    h1,h2{
+        font-weight: typo.$font-weight-semi-bold;
+        color: color.$color-dark;
+    }
+    h1{
+        font-size: typo.$font-size-heading;
+        
+    }
+    h2{
+        font-size: typo.$font-size-heading2;
+    }
+}
