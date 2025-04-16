@@ -1,0 +1,12 @@
+@use '../../styles/variables/color.scss' as color;
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    a{
+        text-decoration: none;
+        color:color.$color-primary;
+    }
+}

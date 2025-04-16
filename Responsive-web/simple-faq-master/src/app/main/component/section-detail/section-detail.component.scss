@@ -1,0 +1,18 @@
+@use '/src/styles/variables/color.scss' as color;
+
+section{
+    width: 55vw;
+    max-width: 1280px;
+    ol b.highlight, p b.highlight{
+       color: color.$color-primary;
+    }
+    @media (max-width: 1024px) {
+        width: 65vw;  
+    }
+    @media (max-width: 700px) {
+        width: 75vw;  
+    }
+    @media (max-width: 500px) {
+        width: 85vw;  
+    }
+}

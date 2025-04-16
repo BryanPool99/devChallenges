@@ -1,0 +1,9 @@
+@use '../../styles/variables/color.scss' as color;
+
+main{
+    width: 100vw;
+    background-color: color.$color-accent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

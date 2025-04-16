@@ -1,0 +1,21 @@
+<section>
+  <h2>{{ title }}</h2>
+  <p>{{ description }}</p>
+  <ng-container *ngIf="isOrdered; else unorderedList">
+    <ol>
+      <li *ngFor="let item of listItems">
+        <span [innerHTML]="getHighlightedText(item.text, item.highlight)"></span>
+      </li>
+    </ol>
+  </ng-container>
+
+  <ng-template #unorderedList>
+    <ul>
+      <li *ngFor="let item of listItems">
+        <span [innerHTML]="getHighlightedText(item.text, item.highlight)"></span>
+      </li>
+    </ul>
+  </ng-template>
+  <p [innerHTML]="getHighlightedText(finalDescription, highlightFinalDescription)"></p>
+  <hr>
+</section>
