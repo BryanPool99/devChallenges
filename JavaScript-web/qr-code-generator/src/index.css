@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #111729;
+  background-image: url("assets/images/bg-illustration.svg");
+  background-position: 80% center; 
+  background-repeat: no-repeat;
+  color: #fff;
+  min-height: 100vh;
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  body{
+    background-position: center;
+  }
+}
